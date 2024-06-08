@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+.activeDot{
+  width: 20px;
+  background-color: #111827;
+}
+.activeSubPic{
+  border: 1px solid #0EA5E9;
+}
+.activeSize{
+  background-color: #0EA5E9;
+  color: white;
+  border: none;
+}
+.unawailableSize{
+  opacity: .5;
+}
+.PActiveSize{
+  background-color: #0EA5E9;
+  color: white;
+  border: none;
+}
+.PUnawailableSize{
+  opacity: .5;
+}
