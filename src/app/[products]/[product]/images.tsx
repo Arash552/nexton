@@ -30,7 +30,7 @@ export default function Images({
       </div>
 
       <div
-        className="flex gap-4 overflow-scroll disableScroll sm:w-32 sm:flex-col sm:overflow-hidden"
+        className="h-40 sm:h-auto flex gap-4 overflow-scroll disableScroll sm:w-32 sm:flex-col sm:overflow-hidden"
         onClick={(e) => {
           const elem = e.target as HTMLElement;
           if (elem.tagName == "IMG") {
@@ -47,22 +47,22 @@ export default function Images({
         <img
           src={currentData.image}
           alt=""
-          className="activeSubPic w-full rounded-2xl cursor-pointer"
+          className="activeSubPic object-contain md:w-full rounded-2xl cursor-pointer"
         />
         <img
           src="/product-27-2 1.png"
           alt=""
-          className="w-full rounded-2xl cursor-pointer"
+          className=" object-contain md:w-full rounded-2xl cursor-pointer"
         />
         <img
           src="/product-27-3 1.png"
           alt=""
-          className="w-full rounded-2xl cursor-pointer"
+          className=" object-contain md:w-full rounded-2xl cursor-pointer"
         />
         <img
           src="/product-27-4 1.png"
           alt=""
-          className="w-full rounded-2xl cursor-pointer"
+          className=" object-contain md:w-full rounded-2xl cursor-pointer"
         />
       </div>
     </div>

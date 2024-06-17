@@ -4,7 +4,7 @@ import "./page.css";
 export default function Login() {
   return (
     <body>
-      <header className="w-full h-16 py-2 px-5 flex items-center justify-between border-b-2 border-borderC">
+      <header className="w-full h-16 py-2 px-5 flex items-center justify-between border-b-2 border-borderC mb-10 sm:mb-20">
         <p className="text-2xl text-black font-bold hidden sm:block">NEXTON</p>
         <img src="/favicon.ico" alt="" className="h-8 sm:hidden" />
         <div className="w-2/3 sm:w-2/5 h-full flex items-center px-2 gap-x-2 rounded-3xl bg-graybg text-sm">
